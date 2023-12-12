@@ -1,4 +1,4 @@
-apiversion: v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: myjavaapp-deploy
@@ -14,7 +14,7 @@ spec:
       labels:
         app: myjavaapp
     spec:
-    containers:
+     containers:
       - name: myjavaappcontainer
         image: nginx
         ports:
