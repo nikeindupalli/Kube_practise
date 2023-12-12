@@ -3,10 +3,11 @@ kind: Service
 metadata:
   name: remah-svc
   labels:
-     name: mynginx
+     app: mynginx
 spec:
   selector:
     app: mynginx
+  type: NodePort
   ports:
   - port: 80
     nodePort: 30001
