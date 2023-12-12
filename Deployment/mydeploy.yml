@@ -14,7 +14,7 @@ spec:
       labels:
         app: myjavaapp
     spec:
-      containers:
+    containers:
       - name: myjavaappcontainer
         image: nginx
         ports:
