@@ -16,6 +16,6 @@ spec:
     spec:
      containers:
       - name: myjavaappcontainer
-        image: java
+        image: remahnike/kubernetes:1
         ports:
         - containerPort: 80

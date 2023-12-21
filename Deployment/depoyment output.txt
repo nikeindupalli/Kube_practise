@@ -1,0 +1,16 @@
+myjavaapp-deploy-6877488584-7kf8p   1/1     Running   0          23s
+myjavaapp-deploy-6877488584-p4rjg   1/1     Running   0          23s
+myjavaapp-deploy-6877488584-pqwqg   1/1     Running   0          23s
+
+Revision Set1
+192.168.101.198:30001
+192.168.101.199:30001
+192.168.101.200:30001
+
+Revision Set2
+192.168.101.198:30001,
+192.168.101.199:30001,
+192.168.101.200:30001
+
+Both revision sets should have same IP's since pods in RS1 get deleted and created in RS2
+
