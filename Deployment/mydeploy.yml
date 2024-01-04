@@ -16,6 +16,6 @@ spec:
     spec:
      containers:
       - name: myjavaappcontainer
-        image: remahnike/kubernetes:1
+        image: maha4iac/myonlinebooking:1
         ports:
         - containerPort: 8080
