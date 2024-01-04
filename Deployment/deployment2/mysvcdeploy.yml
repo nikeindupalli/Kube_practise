@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myjavaapp-service
+  labels:
+    app: myjavaapp
+spec:
+  selector:
+    app: myjavaapp
+  type: NodePort
+  ports:
+   - port: 8080
+     targetPort: 30001
+     protocol: TCP
